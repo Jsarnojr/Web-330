@@ -1,0 +1,54 @@
+/* Pragmatic JavaScript
+   Chapter 3
+   Programming Assignment
+
+   Author: Joseph Sarno
+   Date: 07/11/2024
+   Filename: chef-dashboard
+*/
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chef-container {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+}
+
+.chef-container h2 {
+  color: #333333;
+}
+
+.chef-container p {
+  color: #555555;
+}
+
+#chef1 {
+  border-top: 4px solid #e74c3c;
+}
+
+#chef2 {
+  border-top: 4px solid #3498db;
+}
+
+#chef3 {
+  border-top: 4px solid #2ecc71;
+}
+
+#error {
+  color: #e74c3c;
+  font-weight: bold;
+  margin: 20px;
+}
